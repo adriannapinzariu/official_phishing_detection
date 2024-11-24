@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+  
+.middle-section {
+    text-align: center;
+    padding: 60px 20px;
+
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    color: #6c63ff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .main-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #000;
+    line-height: 1.2;
+    margin: 20px 0;
+  }
+  
+  .main-heading .highlight {
+    color: #6c63ff;
+  }
+  
+  .subheading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1;
+  }
+  
+  .primary-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #6c63ff;
+    color: white;
+    padding: 16px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 40px;
+    z-index: 1;
+  }
+  
+  .primary-button:hover {
+    background-color: #4c49b2;
+    z-index: 1;
+  }
+  
+  .secondary-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    color: #000;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: 2px solid #d4ccf4;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 40px;
+    z-index: 1;
+  }
+  
+  .secondary-button:hover {
+    background-color: #6c63ff;
+    color: white;
+    z-index: 1;
+  }
+
+  .cloud-platform-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    background-color: white; 
+    color: #6c63ff; 
+    border: 0.1px solid #6c63ff; 
+    border-radius: 25px; 
+    padding: 8px 22px; 
+    font-size: .9rem; 
+    font-weight: 500; 
+    cursor: pointer; 
+    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.3); 
+    transition: all 0.3s ease;
+  }
+  
+  .cloud-platform-button:hover {
+    background-color: #6c63ff; 
+    color: white;
+    box-shadow: 0 6px 15px rgba(108, 99, 255, 0.5);
+  }
+
+.loading-bar {
+    width: 100%;
+    max-width: 400px;
+    height: 12px;
+    background-color: #e0e0e0; 
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px auto; 
+    position: relative;
+  }
+  
+  .loading-bar-progress {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(
+      45deg,
+      #6c63ff 25%,
+      #836eff 25%,
+      #836eff 50%,
+      #6c63ff 50%
+    );
+    background-size: 40px 40px; 
+    animation: loading 3s ease-in-out forwards, stripe-move 1s linear infinite;
+    border-radius: 8px;
+  }
+ 
+  @keyframes loading {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes stripe-move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 0;
+    }
+  }
+
+  .result-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000; 
+    text-align: center;
+  }
+  
+  .phishing-feature {
+    background-color: #ffe0e0;
+    color: #ff4d4d;
+    font-weight: bold;
+    padding: 0 3px;
+    border-radius: 4px;
+  }
+  
+  .safe-feature {
+    background-color: #e0f7e0;
+    color: #4caf50;
+    font-weight: bold;
+    padding: 0 3px;
+    border-radius: 4px;
+    
+  }
+  
+  .email-display {
+    margin: 20px auto; 
+    padding: 30px;
+    border: 1px solid #d4ccf4;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    border: 2px solid #d4ccf4;
+    border-radius: 30px;
+    max-width: 650px; 
+    text-align: left;
+  }
+  
+  .email-display strong {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    color: #000; 
+    font-size: 1rem;
+  }
+  
+  
+  .email-display h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .email-display p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 350;
+    font-size: .95rem;
+    white-space: pre-wrap;
+    color: #333;
+  }
+  
+  .results-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .results-header {
+    font-size: 1.75rem; 
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    margin-bottom: -7.5px; 
+  }
+  
+  .results-display {
+    font-size: 1.2rem; 
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  
+  
+  .highlight-info {
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: #555; 
+  }
+  
+  .highlight-info p {
+    margin: 5px 0; 
+  }
+  
+
+  .red-text {
+    color: red;
+    font-size: 1.15rem; 
+    font-weight: 300;
+  }
+  
+  .green-text {
+    color: green;
+    font-size: 1.15rem; 
+    font-weight: 300;
+  }
+  
+  .highlight-info {
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: #555;
+  }
+  
+  .highlight-info p {
+    margin: 5px 0;
+  }
+  
+  .highlight-box {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .red-highlight {
+    color: #ff4d4d;
+    background-color: #ffe0e0; 
+  }
+  
+  .green-highlight {
+    color: #4caf50;
+    background-color: #e0f7e0; 
+  }
+
+  .phishing-image {
+    width: 100%;
+    max-width: 600px; 
+    margin: -130px auto;
+    display: block;
+  }
+  
+  .button-image-container {
+    text-align: center;
+  }
+  
+
+

@@ -1,0 +1,13 @@
+.footer {
+    margin-top: auto;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-family: "Inter", sans-serif;
+    font-size: .9rem; 
+    color: #666; 
+    font-weight: 300;
+  }
+  

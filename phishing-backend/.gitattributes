@@ -1,0 +1,2 @@
+phishing-backend/phishing_email.csv filter=lfs diff=lfs merge=lfs -text
+phishing_email.csv filter=lfs diff=lfs merge=lfs -text
