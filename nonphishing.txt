@@ -1,0 +1,10 @@
+Subject: Meeting Reminder
+
+Hello,
+
+This is a reminder for our scheduled meeting tomorrow at 10:00 AM. Please find the agenda attached.
+
+Thank you for your attention, and let me know if you have any questions.
+
+Regards,
+John Doe

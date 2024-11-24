@@ -1,0 +1,12 @@
+Subject: Urgent Update Required
+
+Dear User,
+
+Your account has been compromised. Please click the link below to update your password immediately:
+
+http://malicious-link.com
+
+Failure to act will result in your account being locked.
+
+Regards,
+Fake Bank Support
