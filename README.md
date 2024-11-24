@@ -3,14 +3,14 @@
 1. Clone via Github
 2. Go into a terminal and run these commands
    
-   cd phishing-backend
+   a. cd phishing-backend
 
-   python server.py
+   b. python server.py
    
 4. Go into a second terminal and run these commands
    
-  cd phishing-detection-ui 
+  a. cd phishing-detection-ui 
   
-  npm install --legacy-peer-deps 
+  b. npm install --legacy-peer-deps 
   
-  npm start
+  c. npm start
